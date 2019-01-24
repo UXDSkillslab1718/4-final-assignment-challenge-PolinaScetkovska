@@ -1,0 +1,182 @@
+
+
+body { 
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    
+}
+
+.profile-img {
+    width: 30%;
+    float: left;  
+    min-height: 50px;
+    border-radius: 50%;
+}
+    
+h1, h2 {
+   font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-size: 70;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 0;
+    color: black;
+}
+h3 {
+    margin: 0;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+.content-wrap{
+   
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 70px;
+    overflow: hidden;
+}
+.col-narrow{
+    width: 30%;
+    float: left;  
+    min-height: 50px;
+}
+.col-wide{
+    
+    width: 100%;
+    padding-left: 150px;
+    min-height: 50px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
+h1 {
+    color: white;
+}
+
+.keep {
+    color: #fcf7f7;
+}
+
+/* Header and Footer*/
+header {
+    
+    padding-top: 90px; 
+    background: #b27f71;
+    color: white;
+    
+}
+
+footer{
+        background: #b27f71;
+        color: white;
+        text-align: center;
+}
+
+.contact-info a{
+   
+    margin: 20px;
+   display: inline-block;
+
+}
+
+/*Navigation*/
+
+nav{
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+ 
+}
+nav a{
+    display: inline-block;
+    padding: 30px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: 	#492b26;
+}
+
+
+header h1, header h2 {
+    color:white;
+    margin: 0;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* Education */
+.education {
+    background: #e5c4bb;
+    background: linear-gradient(rgba(220,220,220,0.8),
+        rgba(255,255,255,0.5)),
+        url(../images/watercolor.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+p + h3 {
+    margin-top: 25px;
+}
+
+/* Work Experience*/
+.work {
+    background: 	#e5c4bb;
+}
+
+/* Projects*/
+.projects {
+    
+    background:white
+}
+h3 ~p{
+    margin: 0; 
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+/* Media Queries */
+
+@media (min-width:800px)
+{
+.col-narrow{
+    width: 30%;
+    float: left;  
+    min-height: 50px;
+}
+
+
+.col-wide{
+    width: 120%;
+    padding-left: 350px;
+    min-height: 50px;
+}
+
+
+@media (max-width:799px){
+    header{
+        text-align: center;
+    }
+    .profile-img{
+        width: 200px;
+        align-content: center;
+    }
+}
