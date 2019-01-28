@@ -139,6 +139,12 @@ p + h3 {
     background-size: cover;
     
 }
+
+/* Bespoke*/
+
+.bespoke {
+    background: white;
+}
 /* Projects*/
     
 .projects {
