@@ -5,18 +5,20 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     
+    
 }
+    
 
 .profile-img {
     width: 30%;
     float: left;  
     min-height: 50px;
-    border-radius: 50%;
+   border-radius: 50%;
 }
     
 h1, h2 {
    font-family: 'Raleway', sans-serif;
-    margin: 0;
+    margin: 3;
     font-size: 70;
 }
 
@@ -33,6 +35,11 @@ h3 {
     margin: 0;
 }
 
+p
+{
+    width: 550px;
+}
+
 
 a:hover{
     text-decoration: none;
@@ -43,17 +50,6 @@ a:hover{
     margin: 0 auto;
     padding: 50px 70px;
     overflow: hidden;
-}
-.col-narrow{
-    width: 30%;
-    float: left;  
-    min-height: 50px;
-}
-.col-wide{
-    
-    width: 100%;
-    padding-left: 150px;
-    min-height: 50px;
 }
 
 .uppercase {
@@ -124,26 +120,33 @@ header h1, header h2 {
 }
 /* Education */
 .education {
-    background: #e5c4bb;
-    background: linear-gradient(rgba(220,220,220,0.8),
-        rgba(255,255,255,0.5)),
-        url(../images/watercolor.jpg) no-repeat fixed;
-    background-size: cover;
+    background: #e1e1dd;
+   
 }
 
 p + h3 {
     margin-top: 25px;
 }
 
+
+
 /* Work Experience*/
 .work {
-    background: 	#e5c4bb;
+     background: #e5c4bb;
+    background: linear-gradient(rgba(220,220,220,0.8),
+        rgba(255,255,255,0.5)),
+        url(../images/cyclingmalaga1.jpg) no-repeat fixed;
+    background-size: cover;
+    
 }
-
 /* Projects*/
+    
 .projects {
     
-    background:white
+   background: 	#f6f3ed;
+}
+}
+    
 }
 h3 ~p{
     margin: 0; 
@@ -165,7 +168,7 @@ h3 ~p{
 
 
 .col-wide{
-    width: 120%;
+    width: 130%;
     padding-left: 350px;
     min-height: 50px;
 }
